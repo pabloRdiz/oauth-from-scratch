@@ -1,12 +1,12 @@
-import React from "react";
-import { Route } from "react-router-dom";
-import "./App.css";
-import LoginButton from "./auth/LoginButton";
-import LogoutButton from "./auth/LogoutButton";
-import Challenges from "./Challenges";
+import { Route } from 'react-router-dom';
+import './App.css';
+import LoginButton from './auth/LoginButton';
+import LogoutButton from './auth/LogoutButton';
+import Challenges from './Challenges';
 
 function App() {
   return (
+    // eslint-disable-next-line react/react-in-jsx-scope
     <div className="App">
       <header className="App-header">
         <h1>Dashboard</h1>
